@@ -1,0 +1,271 @@
+      =========================================================================== 
+      Human Activity Recognition Using Smartphones Dataset 
+      Version 1.0 
+      =========================================================================== 
+      Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
+      Smartlab - Non Linear Complex Systems Laboratory 
+      DITEN - Università degli Studi di Genova.
+      Via Opera Pia 11A, I-16145, Genoa, Italy.
+      activityrecognition@smartlab.ws 
+      www.smartlab.ws 
+      =========================================================================== 
+      
+      The experiments have been carried out with a group of 30 volunteers 
+      within an age bracket of 19-48 years. Each person performed six activities 
+      (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) 
+      wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded 
+      accelerometer and gyroscope, we captured 3-axial linear acceleration and 
+      3-axial angular velocity at a constant rate of 50Hz. The experiments have 
+      been video-recorded to label the data manually. The obtained dataset has 
+      been aggregated into a dataset providing the average of each variable 
+      for each activity and each subject. 
+
+      
+      DATA DICTIONARY
+      
+      activity	character
+	type of activity performed by the volunteer
+	
+      subject	integer
+	identifier of the volunteer
+	
+      tBodyAccelerationMeanX	numeric
+	The mean of the time domain signal of the body accelleration in the x-axis direction, by activity by subject.
+	
+      tBodyAccelerationMeanY	numeric
+ 	The mean of the time domain signal of the body accelleration in the y-axis direction, by activity by subject.
+ 	
+      tBodyAccelerationMeanZ	numeric
+	The mean of the time domain signal of the body accelleration in the z-axis direction, by activity by subject.
+	
+      tBodyAccelerationStandardDeviationX	numeric
+  	The mean of the standard deviation of time domain signal of the body accelleration in the x-axis direction, by activity by subject.
+	    
+      tBodyAccelerationStandardDeviationY	numeric
+  	The mean of the standard deviation of time domain signal of the body accelleration in the y-axis direction, by activity by subject.
+
+      tBodyAccelerationStandardDeviationZ	numeric
+  	The mean of the standard deviation of time domain signal of the body accelleration in the z-axis direction, by activity by subject.
+
+      tGravityAccelerationMeanX		numeric
+  	The mean of the time domain signal of the gravity accelleration in the x-axis direction, by activity by subject.
+      
+      tGravityAccelerationMeanY		numeric
+  	The mean of the time domain signal of the gravity accelleration in the y-axis direction, by activity by subject.
+  	
+      tGravityAccelerationMeanZ		numeric
+  	The mean of the time domain signal of the gravity accelleration in the z-axis direction, by activity by subject.
+  	
+      tGravityAccelerationStandardDeviationX	numeric
+  	The mean of the standard deviation of time domain signal of the gravity accelleration in the x-axis direction, by activity by subject.
+
+      tGravityAccelerationStandardDeviationY	numeric
+  	The mean of the standard deviation of time domain signal of the gravity accelleration in the y-axis direction, by activity by subject.
+
+      tGravityAccelerationStandardDeviationZ	numeric
+  	The mean of the standard deviation of time domain signal of the gravity accelleration in the z-axis direction, by activity by subject.
+
+      tBodyAccelerationJerkMeanX	numeric
+  	The mean of the time domain signal of the Jerk signal accelleration in the x-axis direction, by activity by subject.
+
+      tBodyAccelerationJerkMeanY	numeric
+  	The mean of the time domain signal of the Jerk signal accelleration in the y-axis direction, by activity by subject.
+  	
+      tBodyAccelerationJerkMeanZ	numeric
+  	The mean of the time domain signal of the Jerk signal accelleration in the z-axis direction, by activity by subject.
+  	
+      tBodyAccelerationJerkStandardDeviationX	numeric
+  	The mean of the standard deviation of the time domain signal of the Jerk signal accelleration in the x-axis direction, by activity by subject.
+  	
+      tBodyAccelerationJerkStandardDeviationY	numeric
+  	The mean of the standard deviation of the time domain signal of the Jerk signal accelleration in the y-axis direction, by activity by subject.
+
+      tBodyAccelerationJerkStandardDeviationZ	numeric
+  	The mean of the standard deviation of the time domain signal of the Jerk signal accelleration in the z-axis direction, by activity by subject.
+
+      tBodyGyroscopeMeanX	numeric
+	The mean of the time domain signal of the body gyroscope in the x-axis direction, by activity by subject.
+	
+      tBodyGyroscopeMeanY	numeric
+	The mean of the time domain signal of the body gyroscope in the y-axis direction, by activity by subject.
+	
+      tBodyGyroscopeMeanZ	numeric
+	The mean of the time domain signal of the body gyroscope in the z-axis direction, by activity by subject.
+	
+      tBodyGyroscopeStandardDeviationX	numeric
+	The mean of the standard deviation of the time domain signal of the body gyroscope in the x-axis direction, by activity by subject.
+	
+      tBodyGyroscopeStandardDeviationY	numeric
+	The mean of the standard deviation of the time domain signal of the body gyroscope in the y-axis direction, by activity by subject.
+
+      tBodyGyroscopeStandardDeviationZ	numeric
+	The mean of the standard deviation of the time domain signal of the body gyroscope in the z-axis direction, by activity by subject.
+
+      tBodyGyroscopeJerkMeanX	numeric
+	The mean of the time domain signal of the body gyroscope Jerk signal the x-axis direction, by activity by subject.
+
+      tBodyGyroscopeJerkMeanY	numeric
+	The mean of the time domain signal of the body gyroscope in the y-axis direction, by activity by subject.
+
+      tBodyGyroscopeJerkMeanZ	numeric
+	The mean of the time domain signal of the body gyroscope in the z-axis direction, by activity by subject.
+
+      tBodyGyroscopeJerkStandardDeviationX	numeric
+	The mean of the standard deviation of the time domain signal of the body gyroscope in the x-axis direction, by activity by subject.
+
+      tBodyGyroscopeJerkStandardDeviationY	numeric
+	The mean of the standard deviation of the time domain signal of the body gyroscope in the y-axis direction, by activity by subject.
+
+      tBodyGyroscopeJerkStandardDeviationZ	numeric
+	The mean of the standard deviation of the time domain signal of the body gyroscope in the z-axis direction, by activity by subject.
+
+      tBodyAccelerationMagnitudeMean	numeric
+	The mean of the time domain signal of the magnitude of the body acceleration, by activity by subject.
+	
+      tBodyAccelerationMagnitudeStandardDeviation	numeric
+	The mean of the standard deviation of the time domain signal of the magnitude of the body acceleration, by activity by subject.
+
+      tGravityAccelerationMagnitudeMean	numeric
+	The mean of the time domain signal of the magnitude of the gravity acceleration, by activity by subject.
+	
+      tGravityAccelerationMagnitudeStandardDeviation	numeric
+	The mean of the standard deviation of the time domain signal of the magnitude of the gravity acceleration, by activity by subject.
+
+      tBodyAccelerationJerkMagnitudeMean	numeric
+	The mean of the time domain signal of the magnitude of the Jerk signal of the body acceleration, by activity by subject.
+	
+      tBodyAccelerationJerkMagnitudeStandardDeviation	numeric
+	The mean of the standard deviation of the time domain signal of the magnitude of the Jerk signal of the body acceleration, by activity by subject.
+	
+      tBodyGyroscopeMagnitudeMean	numeric
+	The mean of the time domain signal of the magnitude of the body gyroscope, by activity by subject.
+	
+      tBodyGyroscopeMagnitudeStandardDeviation	numeric
+	The mean of the standard deviation of the time domain signal of the magnitude of the body gyroscope, by activity by subject.
+	
+      tBodyGyroscopeJerkMagnitudeMean	numeric
+	The mean of the time domain signal of the magnitude of the body gyroscope Jerk signal, by activity by subject.
+	
+      tBodyGyroscopeJerkMagnitudeStandardDeviation	numeric
+	The mean of the standard deviation of the time domain signal of the magnitude of the body gyroscope Jerk signal, by activity by subject.
+
+      ===========================================================================
+
+      fBodyAccelerationMeanX	numeric
+	The mean of the frequency domain signal of the body accelleration in the x-axis direction, by activity by subject.
+	
+      fBodyAccelerationMeanY	numeric
+ 	The mean of the frequency domain signal of the body accelleration in the y-axis direction, by activity by subject.
+ 	
+      fBodyAccelerationMeanZ	numeric
+	The mean of the frequency domain signal of the body accelleration in the z-axis direction, by activity by subject.
+	
+      fBodyAccelerationStandardDeviationX	numeric
+  	The mean of the standard deviation of frequency domain signal of the body accelleration in the x-axis direction, by activity by subject.
+	    
+      fBodyAccelerationStandardDeviationY	numeric
+  	The mean of the standard deviation of frequency domain signal of the body accelleration in the y-axis direction, by activity by subject.
+
+      fBodyAccelerationStandardDeviationZ	numeric
+  	The mean of the standard deviation of frequency domain signal of the body accelleration in the z-axis direction, by activity by subject.
+
+      fBodyAccelerationMeanFreqX	numeric
+	The mean of the frequency domain signal of the body accelleration frequency the x-axis direction, by activity by subject.
+
+      fBodyAccelerationMeanFreqY	numeric
+	The mean of the frequency domain signal of the body accelleration frequency the y-axis direction, by activity by subject.
+
+      fBodyAccelerationMeanFreqZ	numeric
+	The mean of the frequency domain signal of the body accelleration frequency the z-axis direction, by activity by subject.
+
+      fBodyAccelerationJerkMeanX	numeric
+  	The mean of the frequency domain signal of the Jerk signal accelleration in the x-axis direction, by activity by subject.
+
+      fBodyAccelerationJerkMeanY	numeric
+  	The mean of the frequency domain signal of the Jerk signal accelleration in the y-axis direction, by activity by subject.
+  	
+      fBodyAccelerationJerkMeanZ	numeric
+  	The mean of the frequency domain signal of the Jerk signal accelleration in the z-axis direction, by activity by subject.
+  	
+      fBodyAccelerationJerkStandardDeviationX	numeric
+  	The mean of the standard deviation of the frequency domain signal of the Jerk signal accelleration in the x-axis direction, by activity by subject.
+  	
+      fBodyAccelerationJerkStandardDeviationY	numeric
+  	The mean of the standard deviation of the frequency domain signal of the Jerk signal accelleration in the y-axis direction, by activity by subject.
+
+      fBodyAccelerationJerkStandardDeviationZ	numeric
+  	The mean of the standard deviation of the frequency domain signal of the Jerk signal accelleration in the z-axis direction, by activity by subject.
+
+      fBodyAccelerationJerkMeanFreqX	numeric
+  	The mean of the frequency domain signal of the Jerk signal accelleration frequency in the x-axis direction, by activity by subject.
+  	
+      fBodyAccelerationJerkMeanFreqY	numeric
+  	The mean of the frequency domain signal of the Jerk signal accelleration frequency in the y-axis direction, by activity by subject.
+
+      fBodyAccelerationJerkMeanFreqZ	numeric
+  	The mean of the frequency domain signal of the Jerk signal accelleration frequency in the z-axis direction, by activity by subject.
+
+      fBodyGyroscopeMeanX	numeric
+	The mean of the frequency domain signal of the body gyroscope in the x-axis direction, by activity by subject.
+	
+      fBodyGyroscopeMeanY	numeric
+	The mean of the frequency domain signal of the body gyroscope in the y-axis direction, by activity by subject.
+	
+      fBodyGyroscopeMeanZ	numeric
+	The mean of the frequency domain signal of the body gyroscope in the z-axis direction, by activity by subject.
+	
+      fBodyGyroscopeStandardDeviationX	numeric
+	The mean of the standard deviation of the frequency domain signal of the body gyroscope in the x-axis direction, by activity by subject.
+	
+      fBodyGyroscopeStandardDeviationY	numeric
+	The mean of the standard deviation of the frequency domain signal of the body gyroscope in the y-axis direction, by activity by subject.
+
+      fBodyGyroscopeStandardDeviationZ	numeric
+	The mean of the standard deviation of the frequency domain signal of the body gyroscope in the z-axis direction, by activity by subject.
+
+      fBodyGyroscopeMeanFreqX	numeric
+	The mean of the frequency domain signal of the body gyroscope frequency the x-axis direction, by activity by subject.
+	
+      fBodyGyroscopeMeanFreqY	numeric
+	The mean of the frequency domain signal of the body gyroscope frequency the x-axis direction, by activity by subject.
+	
+      fBodyGyroscopeMeanFreqZ	numeric
+	The mean of the frequency domain signal of the body gyroscope frequency the x-axis direction, by activity by subject.
+
+      fBodyAccelerationMagnitudeMean	numeric
+	The mean of the frequency domain signal of the magnitude of the body acceleration, by activity by subject.
+	
+      fBodyAccelerationMagnitudeStandardDeviation	numeric
+	The mean of the standard deviation of the frequency domain signal of the magnitude of the body acceleration, by activity by subject.
+
+      fBodyAccelerationMagnitudeMeanFreq	numeric
+	The mean of the frequency domain signal of the magnitude of the body acceleration frequency, by activity by subject.
+
+      fBodyBodyAccelerationJerkMagnitudeMean	numeric
+	The mean of the frequency domain signal of the magnitude of the Jerk signal of the body acceleration, by activity by subject.
+	
+      fBodyBodyAccelerationJerkMagnitudeStandardDeviation	numeric
+	The mean of the standard deviation of the frequency domain signal of the magnitude of the Jerk signal of the body acceleration, by activity by subject.
+
+      fBodyBodyAccelerationJerkMagnitudeMeanFreq	numeric
+	The mean of the frequency domain signal of the magnitude of the Jerk signal of the body acceleration frequency, by activity by subject.
+
+      fBodyBodyGyroscopeMagnitudeMean	numeric
+	The mean of the frequency domain signal of the magnitude of the body gyroscope, by activity by subject.
+	
+      fBodyBodyGyroscopeMagnitudeStandardDeviation	numeric
+	The mean of the standard deviation of the frequency domain signal of the magnitude of the body gyroscope, by activity by subject.
+
+      fBodyBodyGyroscopeMagnitudeMeanFreq	numeric
+	The mean of the frequency domain signal of the magnitude of the body gyroscope frequency, by activity by subject.
+
+      fBodyBodyGyroscopeJerkMagnitudeMean	numeric
+	The mean of the frequency domain signal of the magnitude of the body gyroscope Jerk signal, by activity by subject.
+	
+      fBodyBodyGyroscopeJerkMagnitudeStandardDeviation	numeric
+	The mean of the standard deviation of the frequency domain signal of the magnitude of the body gyroscope Jerk signal, by activity by subject.
+
+      fBodyBodyGyroscopeJerkMagnitudeMeanFreq	numeric
+	The mean of the frequency domain signal of the magnitude of the body gyroscope Jerk signal frequency, by activity by subject.
+	
+     

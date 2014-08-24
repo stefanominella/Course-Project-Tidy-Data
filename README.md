@@ -10,13 +10,4 @@ So please be appreciative of my effort to submit my work at my best.
 
 The script run_analysis.R aims to generate a tidy dataset through the following steps:
 
-1) load source data files
-2) label the measurements dataset variables using the labels from the features.txt file. 
-3) add the subject and activity codes as new columns to the measurements dataset.
-4) merge the test and train measurements datasets together.
-5) extract only the measurements from mean,std and activity, subject codes. 
-5) merge the activity_labels.txt dataset with the measurements dataset to include activities description.
-6) appropriately label the measurments dataset with descriptive varibles names removing dashes, parenthesis and abbreviations.
-7) compute the average of each variable for each activity and each subject.
-8) save the data frame as a txt file into the r working directory.
 
